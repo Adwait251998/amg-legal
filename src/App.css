@@ -10,6 +10,8 @@ main {
 @media (min-width: 1921px) {
   main {
     max-width: 1920px;
+
     margin: auto;
+    margin-top: 70px !important;
   }
 }
