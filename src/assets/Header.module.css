@@ -1,0 +1,13 @@
+.nav li {
+  cursor: pointer;
+  font-size: 18px;
+}
+.navigation {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+.brandHeader {
+  font-size: 28px;
+}

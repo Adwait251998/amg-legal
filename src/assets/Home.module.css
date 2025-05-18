@@ -1,0 +1,31 @@
+.heroImg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 100%;
+}
+.homeGridCont {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 24px;
+}
+.homeDecSection {
+  margin: auto;
+}
+.heroImgCont {
+  margin: -48px -48px 0px -48px;
+}
+@media (max-width: 991px) {
+  .homeGridCont {
+    display: block;
+  }
+  .heroImgCont {
+    margin: -16px -16px 0px -16px;
+  }
+}

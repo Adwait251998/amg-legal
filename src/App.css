@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  margin-top: 84px !important;
+}
+.description {
+  font-size: 16px;
+}
+@media (min-width: 1921px) {
+  main {
+    max-width: 1920px;
+    margin: auto;
+  }
+}
