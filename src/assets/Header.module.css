@@ -11,3 +11,8 @@
 .brandHeader {
   font-size: 28px;
 }
+@media (max-width: 991px) {
+  .brandHeader {
+    font-size: 20px;
+  }
+}

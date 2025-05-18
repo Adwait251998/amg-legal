@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className={`${headerStyle.navigation}`}>
       <nav
-        className={`navbar navbar-expand-lg navbar-light bg-light py-3 px-5 shadow-sm ${headerStyle.nav}`}
+        className={`navbar navbar-expand-lg navbar-light bg-light py-3 px-3 px-md-5 shadow-sm ${headerStyle.nav}`}
       >
         <div className="container-fluid p-0">
           <a className={`navbar-brand ${headerStyle.brandHeader}`} href="#">
