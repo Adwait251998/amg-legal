@@ -1,0 +1,13 @@
+.featureImg {
+  max-width: 200px;
+}
+@media (max-width: 991px) {
+  .featureImg {
+    max-width: 100%;
+  }
+}
+@media (min-width: 991px) {
+  .featureCont {
+    flex-direction: initial !important;
+  }
+}

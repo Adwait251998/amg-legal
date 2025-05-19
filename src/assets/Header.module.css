@@ -11,8 +11,38 @@
 .brandHeader {
   font-size: 28px;
 }
+.headerMobBtn:focus:not(:focus-visible),
+.headerMobBtn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.headerMobBtn {
+  border: none;
+}
 @media (max-width: 991px) {
   .brandHeader {
     font-size: 20px !important;
   }
+  .navbarCollapseCustom {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    transition: right 0.3s ease;
+    z-index: 1050;
+    padding-top: 4rem;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbarNavVertical {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+}
+.closeIcon {
+  right: 16px;
+  top: 16px;
 }

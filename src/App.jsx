@@ -17,7 +17,7 @@ function App() {
       <header>
         <Header></Header>
       </header>
-      <main className="p-lg-5 p-3">
+      <main className="p-lg-5 p-3 d-grid gap-md-5 gap-4">
         <section id="Home">
           <Home></Home>
         </section>

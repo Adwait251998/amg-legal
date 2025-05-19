@@ -7,6 +7,9 @@ main {
 .description {
   font-size: 16px;
 }
+.collapse.show {
+  right: 0;
+}
 @media (min-width: 1921px) {
   main {
     max-width: 1920px;
